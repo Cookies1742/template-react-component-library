@@ -1,0 +1,12 @@
+@import '@alfalab/core-components/vars';
+
+.typography-for-copy {
+    display: inline-block;
+    border-radius: var(--border-radius-s);
+    &:hover {
+        background-color: var(--color-light-bg-secondary);
+    }
+    &__tooltip-arrow {
+        display: none;
+    }
+}
